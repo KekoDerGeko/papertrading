@@ -5,6 +5,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 |---|---|---|---|
 | 2026-10-20 | 100,00 | 0 | Start |
 | 2026-10-21 | 100,00 | 0 | Kein Trade |
+| 2026-10-22 | 100,00 | 0 | Kein Trade |
 ## Offene Positionen
 | ID | Eröffnet | Basiswert | Richtung | Instrument | Einsatz (€) | Einstieg (Kurs, Uhrzeit, Quelle) | Stopp | Ziel | KO-Schwelle | Ungültig wenn |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -14,4 +15,5 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 ## Tageslog
 - 2026-10-20 (Di): Heute kein Trade. Keine verlässlichen aktuellen Kurse, Berichtssaison (Netflix, Tesla, Meta), hohes Nachrichtenrisiko (Brent > 110 $, Iran).
 - 2026-10-21 (Mi): Heute kein Trade. Suche lieferte keine Vorbörse/US-Futures und keine Tagestermine für heute, also kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
+- 2026-10-22 (Do): Heute kein Trade. Websuche (09:31 Uhr) lieferte weder Vorbörse/US-Futures noch Tagestermine für heute, also kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 ## Wochenbilanzen
