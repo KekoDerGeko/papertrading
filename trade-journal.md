@@ -14,6 +14,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 | 2026-10-30 | 100,00 | 0 | Kein Trade, Wochenbilanz KW44 |
 | 2026-11-02 | 100,00 | 0 | Kein Trade |
 | 2026-11-03 | 100,00 | 0 | Kein Trade |
+| 2026-11-04 | 100,00 | 0 | Kein Trade |
 ## Offene Positionen
 | ID | Eröffnet | Basiswert | Richtung | Instrument | Einsatz (€) | Einstieg (Kurs, Uhrzeit, Quelle) | Stopp | Ziel | KO-Schwelle | Ungültig wenn |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -32,6 +33,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 - 2026-10-30 (Fr): Heute kein Trade. Websuche (08:31 Uhr, 2 Abfragen DAX-Vorbörse/US-Futures/Termine) lieferte nur ältere Treffer (zuletzt 25.08.2026), keine Vorbörse/Futures/Tagestermine für heute. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-02 (Mo): Heute kein Trade. Websuche (08:34 Uhr, 2 Abfragen DAX-Vorbörse/US-Futures/Termine) lieferte nur ältere Treffer (zuletzt 07.10.2026), keine Vorbörse/Futures/Tagestermine für heute. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-03 (Di): Heute kein Trade. Websuche (08:31 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Treffer Aug 2026). Einziger Termin laut dpa-AFX-Wochenvorschau (Stand 28.10.): Lufthansa Q3-Zahlen 07:00 Uhr; Japan Feiertag. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
+- 2026-11-04 (Mi): Heute kein Trade. Websuche (08:31 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Treffer 28.08.2026). Termine laut dpa-AFX-Wochenvorschau (Stand 29.10.): Aker, Marks & Spencer, Wolters Kluwer, Uber (Q3), VDMA-Auftragseingang. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 ## Wochenbilanzen
 - KW43 (20.–23.10.2026): 0 Trades, Trefferquote n/a (keine abgeschlossenen Trades). Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Alle vier Tage ohne Trade, weil die Websuche keine aktuellen Kurse (Vorbörse, Futures) und keine Tagestermine geliefert hat – das ist ein Datenproblem, kein Marktproblem. Vorsicht war regelkonform, aber das Experiment lernt so nichts. Nächste Woche: andere Kursquellen testen (z. B. direkte Börsenseiten per Abruf), sonst bleibt es bei „kein Trade“.
 - KW44 (26.–30.10.2026): 0 Trades, Trefferquote n/a. Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Wieder alle fünf Tage ohne Trade, weil die Websuche keine aktuellen Kurse lieferte. Die Verbesserung aus KW43 (andere Kursquellen testen) hat nichts gebracht: Direktabruf von Börsenseiten scheiterte am 26.10., Suchtreffer sind Wochen bis Monate alt. Das Experiment ist ohne eine Echtzeit-Kursquelle (z. B. erlaubte Domain im Netzwerk oder Kurs-API) nicht aussagekräftig.
