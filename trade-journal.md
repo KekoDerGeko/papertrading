@@ -19,6 +19,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 | 2026-11-06 | 100,00 | 0 | Kein Trade, Wochenbilanz KW45 |
 | 2026-11-09 | 100,00 | 0 | Kein Trade |
 | 2026-11-10 | 100,00 | 0 | Kein Trade |
+| 2026-11-11 | 100,00 | 0 | Kein Trade |
 ## Offene Positionen
 | ID | Eröffnet | Basiswert | Richtung | Instrument | Einsatz (€) | Einstieg (Kurs, Uhrzeit, Quelle) | Stopp | Ziel | KO-Schwelle | Ungültig wenn |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -42,6 +43,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 - 2026-11-06 (Fr): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Treffer 25.08.2026). Tagestermine nicht belegbar; der US-Arbeitsmarktbericht fällt üblicherweise auf den ersten Freitag im Monat (14:30 Uhr), für heute aber nicht bestätigt. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-09 (Mo): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste datierte Treffer 25.08.2026). Tagestermine nicht belegbar (dpa-AFX-Wochenvorschau bis 09.11. nur ohne Tagesteil). Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-10 (Di): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste datierte Treffer 04.09.2026). Tagestermine nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
+- 2026-11-11 (Mi): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Treffer 05.–07.11.2026; X-DAX-Indikation 05.11.: 26.594). Tagesvorschau für heute nicht verfügbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 ## Wochenbilanzen
 - KW43 (20.–23.10.2026): 0 Trades, Trefferquote n/a (keine abgeschlossenen Trades). Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Alle vier Tage ohne Trade, weil die Websuche keine aktuellen Kurse (Vorbörse, Futures) und keine Tagestermine geliefert hat – das ist ein Datenproblem, kein Marktproblem. Vorsicht war regelkonform, aber das Experiment lernt so nichts. Nächste Woche: andere Kursquellen testen (z. B. direkte Börsenseiten per Abruf), sonst bleibt es bei „kein Trade“.
 - KW44 (26.–30.10.2026): 0 Trades, Trefferquote n/a. Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Wieder alle fünf Tage ohne Trade, weil die Websuche keine aktuellen Kurse lieferte. Die Verbesserung aus KW43 (andere Kursquellen testen) hat nichts gebracht: Direktabruf von Börsenseiten scheiterte am 26.10., Suchtreffer sind Wochen bis Monate alt. Das Experiment ist ohne eine Echtzeit-Kursquelle (z. B. erlaubte Domain im Netzwerk oder Kurs-API) nicht aussagekräftig.
