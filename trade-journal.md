@@ -24,6 +24,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 | 2026-11-13 | 100,00 | 0 | Kein Trade, Wochenbilanz KW46 |
 | 2026-11-16 | 100,00 | 0 | Kein Trade |
 | 2026-11-17 | 100,00 | 0 | Kein Trade |
+| 2026-11-18 | 100,00 | 0 | Kein Trade |
 ## Offene Positionen
 | ID | Eröffnet | Basiswert | Richtung | Instrument | Einsatz (€) | Einstieg (Kurs, Uhrzeit, Quelle) | Stopp | Ziel | KO-Schwelle | Ungültig wenn |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -52,6 +53,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 - 2026-11-13 (Fr): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures mit Datum 13.11. Nur Wochenausblick vom 09.11.: Nasdaq 100 -4,9 %, S&P 500 -2,7 % in der Vorwoche, DAX zuletzt unter 26.000; für heute Eurozone-BIP Q3 (2. Schätzung, erwartet +0,4 %). Quartalszahlen heute nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-16 (Mo): Heute kein Trade. Websuche (08:35 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Treffer: DAX-Future 25.010 am 09.10.; sonst Juni 2026). Tagestermine für 16.11. nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-17 (Di): Heute kein Trade. Websuche (08:33 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste datierte Treffer: DAX-Future >25.000 am 09.10.2026; Wochenausblick 09.11.: Tech-Risiken, Inflationsdaten 10./11.11.). Tagestermine nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
+- 2026-11-18 (Mi): Heute kein Trade. Websuche (08:35 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures mit Datum 18.11. (neueste Indikation: X-DAX ~26.770 am 16.11., DAX-Future 26.849; US-Futures nur vom 09.10.). Termine: laut Wochenausblick ein Börsengang heute, DAX-Verfall am Fr 20.11.; Quartalszahlen nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 ## Wochenbilanzen
 - KW43 (20.–23.10.2026): 0 Trades, Trefferquote n/a (keine abgeschlossenen Trades). Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Alle vier Tage ohne Trade, weil die Websuche keine aktuellen Kurse (Vorbörse, Futures) und keine Tagestermine geliefert hat – das ist ein Datenproblem, kein Marktproblem. Vorsicht war regelkonform, aber das Experiment lernt so nichts. Nächste Woche: andere Kursquellen testen (z. B. direkte Börsenseiten per Abruf), sonst bleibt es bei „kein Trade“.
 - KW44 (26.–30.10.2026): 0 Trades, Trefferquote n/a. Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Wieder alle fünf Tage ohne Trade, weil die Websuche keine aktuellen Kurse lieferte. Die Verbesserung aus KW43 (andere Kursquellen testen) hat nichts gebracht: Direktabruf von Börsenseiten scheiterte am 26.10., Suchtreffer sind Wochen bis Monate alt. Das Experiment ist ohne eine Echtzeit-Kursquelle (z. B. erlaubte Domain im Netzwerk oder Kurs-API) nicht aussagekräftig.
