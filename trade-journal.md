@@ -28,6 +28,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 | 2026-11-19 | 100,00 | 0 | Kein Trade |
 | 2026-11-20 | 100,00 | 0 | Kein Trade, Wochenbilanz KW47 |
 | 2026-11-23 | 100,00 | 0 | Kein Trade |
+| 2026-11-24 | 100,00 | 0 | Kein Trade |
 ## Offene Positionen
 | ID | Eröffnet | Basiswert | Richtung | Instrument | Einsatz (€) | Einstieg (Kurs, Uhrzeit, Quelle) | Stopp | Ziel | KO-Schwelle | Ungültig wenn |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -60,6 +61,7 @@ Simulation zu Lernzwecken. Keine Anlageberatung.
 - 2026-11-19 (Do): Heute kein Trade. Websuche (08:35 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures mit Datum 19.11. (neueste Indikation: X-DAX ~26.770 am 16.11.; US-Futures 12.11.: S&P -0,4 %, Nasdaq -0,9 %). Nvidia-Zahlen kamen am Di 17.11. abends. Tagestermine für 19.11. nicht belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-20 (Fr): Heute kein Trade. Websuche (08:32 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures mit Datum 20.11. (neueste Indikation: DAX-Future 26.439 am 17.11.). Tagestermine nicht belegbar; vermutlich Eurex-Verfallstag (3. Freitag, laut Wochenausblick DAX-Optionen 13:00 Uhr), nicht mit Datum bestätigt. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 - 2026-11-23 (Mo): Heute kein Trade. Websuche (08:31 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (neueste Indikation: X-DAX ~26.770 am 16.11.). Tagestermine für 23.11. nicht belegbar (dpa-AFX-Vorschauen enden 19.11.). Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
+- 2026-11-24 (Di): Heute kein Trade. Websuche (08:31 Uhr, 2 Abfragen) lieferte keine Vorbörse/US-Futures für heute (nur Treffer bis Juni 2026; X-DAX ~26.770 vom 16.11.). Termine laut dpa-AFX-Wochenvorschau: Acea-Neuzulassungen (06:00), Kingfisher Q3-Umsatz (08:00), EU-Westbalkangipfel; keine relevanten Zahlen großer DAX/US-Werte belegbar. Kein aktueller Kurs mit Uhrzeit und Quelle. Keine offenen Positionen.
 ## Wochenbilanzen
 - KW43 (20.–23.10.2026): 0 Trades, Trefferquote n/a (keine abgeschlossenen Trades). Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Alle vier Tage ohne Trade, weil die Websuche keine aktuellen Kurse (Vorbörse, Futures) und keine Tagestermine geliefert hat – das ist ein Datenproblem, kein Marktproblem. Vorsicht war regelkonform, aber das Experiment lernt so nichts. Nächste Woche: andere Kursquellen testen (z. B. direkte Börsenseiten per Abruf), sonst bleibt es bei „kein Trade“.
 - KW44 (26.–30.10.2026): 0 Trades, Trefferquote n/a. Kontostand nach Gebühren: 100,00 € (0,00 € Gebühren). Fehleranalyse: Wieder alle fünf Tage ohne Trade, weil die Websuche keine aktuellen Kurse lieferte. Die Verbesserung aus KW43 (andere Kursquellen testen) hat nichts gebracht: Direktabruf von Börsenseiten scheiterte am 26.10., Suchtreffer sind Wochen bis Monate alt. Das Experiment ist ohne eine Echtzeit-Kursquelle (z. B. erlaubte Domain im Netzwerk oder Kurs-API) nicht aussagekräftig.
